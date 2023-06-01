@@ -660,7 +660,9 @@ p {
       overflow: hidden; } }
   @media only screen and (max-width: 34.06em) {
     .crew {
-      background: linear-gradient(#7675750c, #7675750c), url(/assets/crew/background-crew-mobile.jpg); } }
+      background: linear-gradient(#7675750c, #7675750c), url(/assets/crew/background-crew-mobile.jpg);
+      background-size: cover;
+      background-repeat: no-repeat; } }
   .crew__container {
     position: absolute;
     display: grid;
