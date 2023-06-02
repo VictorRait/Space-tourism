@@ -361,7 +361,7 @@ p {
     font-size: inherit; } }
 
 .home {
-  background-image: url(./assets/home/background-home-desktop.jpg);
+  background-image: url(../assets/home/background-home-desktop.jpg);
   background-size: cover;
   min-height: 100vh;
   width: 100%;
@@ -370,7 +370,7 @@ p {
   padding: 40rem 15rem 13rem 13vw; }
   @media only screen and (max-width: 56.25em) {
     .home {
-      background-image: url(./assets/home/background-home-tablet.jpg);
+      background-image: url(../assets/home/background-home-tablet.jpg);
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
       align-content: center;
@@ -378,7 +378,7 @@ p {
       row-gap: 6rem; } }
   @media only screen and (max-width: 34.06em) {
     .home {
-      background-image: url(./assets/home/background-home-mobile.jpg);
+      background-image: url(../assets/home/background-home-mobile.jpg);
       row-gap: 0; } }
   .home .content {
     grid-column: 1/ 2;
@@ -420,7 +420,7 @@ p {
         margin-top: 4rem; } }
 
 .destination {
-  background: linear-gradient(rgba(225, 225, 225, 0.03), rgba(225, 225, 225, 0.03)), url(/assets/destination/background-destination-desktop.jpg);
+  background: linear-gradient(rgba(225, 225, 225, 0.03), rgba(225, 225, 225, 0.03)), url(../assets/destination/background-destination-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -433,14 +433,14 @@ p {
       min-height: 900px; } }
   @media only screen and (max-width: 56.25em) {
     .destination {
-      background: linear-gradient(rgba(225, 225, 225, 0.03), rgba(225, 225, 225, 0.03)), url(/assets/destination/background-destination-tablet.jpg);
+      background: linear-gradient(rgba(225, 225, 225, 0.03), rgba(225, 225, 225, 0.03)), url(../assets/destination/background-destination-tablet.jpg);
       background-size: cover; } }
   @media only screen and (max-width: 56.25em) and (max-height: 980px) {
     .destination {
       padding-top: 10rem; } }
   @media only screen and (max-width: 34.06em) {
     .destination {
-      background: linear-gradient(rgba(225, 225, 225, 0.03), rgba(225, 225, 225, 0.03)), url(/assets/destination/background-destination-mobile.jpg);
+      background: linear-gradient(rgba(225, 225, 225, 0.03), rgba(225, 225, 225, 0.03)), url(../assets/destination/background-destination-mobile.jpg);
       background-size: cover;
       width: 100vw;
       padding-top: 15rem; } }
@@ -649,7 +649,7 @@ p {
           padding-bottom: 1rem; } }
 
 .crew {
-  background: linear-gradient(#7675750c, #7675750c), url(/assets/crew/background-crew-desktop.jpg);
+  background: linear-gradient(#7675750c, #7675750c), url(../assets/crew/background-crew-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -662,13 +662,13 @@ p {
       height: 900px; } }
   @media only screen and (max-width: 56.25em) {
     .crew {
-      background: linear-gradient(#7675750c, #7675750c), url(./assets/crew/background-crew-tablet.jpg);
+      background: linear-gradient(#7675750c, #7675750c), url(../assets/crew/background-crew-tablet.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       overflow: hidden; } }
   @media only screen and (max-width: 34.06em) {
     .crew {
-      background: linear-gradient(#7675750c, #7675750c), url(./assets/crew/background-crew-mobile.jpg);
+      background: linear-gradient(#7675750c, #7675750c), url(../assets/crew/background-crew-mobile.jpg);
       background-size: cover;
       background-repeat: no-repeat; } }
   .crew__container {
@@ -846,7 +846,7 @@ p {
         padding: 30px 0 20px 0; } }
 
 .technology {
-  background: linear-gradient(#7675750c, #7675750c), url(/assets/technology/background-technology-desktop.jpg);
+  background: linear-gradient(#7675750c, #7675750c), url(../assets/technology/background-technology-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -861,12 +861,12 @@ p {
       justify-content: end; } }
   @media only screen and (max-width: 56.25em) {
     .technology {
-      background: linear-gradient(#7675750c, #7675750c), url(/assets/technology/background-technology-tablet.jpg);
+      background: linear-gradient(#7675750c, #7675750c), url(../assets/technology/background-technology-tablet.jpg);
       background-size: cover;
       background-repeat: no-repeat; } }
   @media only screen and (max-width: 34.06em) {
     .technology {
-      background: linear-gradient(#7675750c, #7675750c), url(/assets/technology/background-technology-mobile.jpg);
+      background: linear-gradient(#7675750c, #7675750c), url(../assets/technology/background-technology-mobile.jpg);
       justify-content: start;
       align-items: start;
       background-size: cover;
@@ -1040,7 +1040,7 @@ p {
     @media only screen and (max-width: 56.25em) {
       .technology__image-container {
         grid-column: 1/ 2;
-        background-image: url(/assets/technology/image-launch-vehicle-landscape.jpg);
+        background-image: url(../assets/technology/image-launch-vehicle-landscape.jpg);
         height: 36.28rem;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1050,7 +1050,7 @@ p {
     @media only screen and (max-width: 34.06em) {
       .technology__image-container {
         height: 21.25rem;
-        background-image: url(/assets/technology/image-launch-vehicle-portrait.jpg);
+        background-image: url(../assets/technology/image-launch-vehicle-portrait.jpg);
         background-position: center bottom; } }
   .technology__image {
     width: 100%; }
