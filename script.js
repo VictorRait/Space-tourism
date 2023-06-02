@@ -307,7 +307,7 @@ if (technologyPage) {
         setData(2);
         if (window.matchMedia("max-width: 900px")) {
           imgContainer.style.backgroundImage =
-            "url(../assets/technology/image-space-capsule-landscape.jpg )";
+            "url(./assets/technology/image-space-capsule-landscape.jpg )";
             imgContainer.style.backgroundPosition = "center center";
         }
       }
