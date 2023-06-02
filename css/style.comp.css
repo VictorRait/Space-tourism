@@ -355,7 +355,7 @@ p {
     font-size: inherit; } }
 
 .home {
-  background-image: url(/assets/home/background-home-desktop.jpg);
+  background-image: url(./assets/home/background-home-desktop.jpg);
   background-size: cover;
   min-height: 100vh;
   width: 100%;
@@ -364,7 +364,7 @@ p {
   padding: 40rem 15rem 13rem 13vw; }
   @media only screen and (max-width: 56.25em) {
     .home {
-      background-image: url(/assets/home/background-home-tablet.jpg);
+      background-image: url(./assets/home/background-home-tablet.jpg);
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
       align-content: center;
@@ -372,7 +372,7 @@ p {
       row-gap: 6rem; } }
   @media only screen and (max-width: 34.06em) {
     .home {
-      background-image: url(/assets/home/background-home-mobile.jpg);
+      background-image: url(./assets/home/background-home-mobile.jpg);
       row-gap: 0; } }
   .home .content {
     grid-column: 1/ 2;
@@ -654,13 +654,13 @@ p {
       height: 900px; } }
   @media only screen and (max-width: 56.25em) {
     .crew {
-      background: linear-gradient(#7675750c, #7675750c), url(/assets/crew/background-crew-tablet.jpg);
+      background: linear-gradient(#7675750c, #7675750c), url(./assets/crew/background-crew-tablet.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       overflow: hidden; } }
   @media only screen and (max-width: 34.06em) {
     .crew {
-      background: linear-gradient(#7675750c, #7675750c), url(/assets/crew/background-crew-mobile.jpg);
+      background: linear-gradient(#7675750c, #7675750c), url(./assets/crew/background-crew-mobile.jpg);
       background-size: cover;
       background-repeat: no-repeat; } }
   .crew__container {
