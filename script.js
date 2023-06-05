@@ -106,28 +106,28 @@ if (destinationPage) {
       const distance = container.querySelector(".distance");
       const travelTime = container.querySelector(".travel-time");
       if (nav.innerText === "MARS") {
-        img.src = "/assets/destination/image-mars.png";
+        img.src = "./assets/destination/image-mars.png";
         name.innerText = nav.innerText;
         detailText.innerHTML = planets[0].text;
         distance.innerHTML = planets[0].distance;
         travelTime.innerHTML = planets[0].traveltime;
       }
       if (nav.innerText === "EUROPA") {
-        img.src = "/assets/destination/image-europa.png";
+        img.src = "./assets/destination/image-europa.png";
         name.innerText = nav.innerText;
         detailText.innerHTML = planets[1].text;
         distance.innerHTML = planets[1].distance;
         travelTime.innerHTML = planets[1].traveltime;
       }
       if (nav.innerText === "TITAN") {
-        img.src = "/assets/destination/image-titan.png";
+        img.src = "./assets/destination/image-titan.png";
         name.innerText = nav.innerText;
         detailText.innerHTML = planets[2].text;
         distance.innerHTML = planets[2].distance;
         travelTime.innerHTML = planets[2].traveltime;
       }
       if (nav.innerText === "MOON") {
-        img.src = "/assets/destination/image-moon.png";
+        img.src = "./assets/destination/image-moon.png";
         name.innerText = nav.innerText;
         detailText.innerHTML = planets[3].text;
         distance.innerHTML = planets[3].distance;
