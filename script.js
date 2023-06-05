@@ -22,7 +22,7 @@ minWidthMobile.onchange = (e) => {
 
 const visibilityNav = function () {
   if (navBtn.classList.contains("visible-nav")) {
-    navImg.src = "/assets/shared/icon-close.svg";
+    navImg.src = "./assets/shared/icon-close.svg";
     navListContainer.style.display = "grid";
     setTimeout(() => {
       navListContainer.style.transform = "translateX(0%)";
@@ -30,7 +30,7 @@ const visibilityNav = function () {
   }
   if (!navBtn.classList.contains("visible-nav")) {
     console.log("hello");
-    navImg.src = "/assets/shared/icon-hamburger.svg";
+    navImg.src = "./assets/shared/icon-hamburger.svg";
     navListContainer.style.transform = "translateX(100%)";
   }
 };
